@@ -17,6 +17,7 @@ function App() {
   return (
     <div className="body">
 
+ 
       <Form tarea={tarea}
         setTarea={setTarea}
         tareas={tareas}

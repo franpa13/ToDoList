@@ -1,6 +1,6 @@
 import Alert from 'react-bootstrap/Alert';
 
-function AlertTrue({tarea}) {
+function AlertTrue() {
     return (
         <>
             {[
@@ -9,7 +9,7 @@ function AlertTrue({tarea}) {
 
             ].map((variant) => (
                 <Alert key={variant} variant={variant}>
-                    {tarea.tarea} ha sido Completada!
+                    la tarea ha sido Completada!
                 </Alert>
             ))}
         </>

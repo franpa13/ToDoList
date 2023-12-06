@@ -77,7 +77,7 @@ export default function Tarea({ tarea, setTareas, setTarea }) {
           />
         </td>
         <p className='alertTrue'>
-          {checkTrue && <AlertTrue tarea={tarea} />}
+          {checkTrue && <AlertTrue  />}
         </p>
       </tr>
 

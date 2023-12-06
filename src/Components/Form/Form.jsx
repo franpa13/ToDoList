@@ -17,6 +17,7 @@ export default function Form({ tareas, setTareas, tarea, setTarea }) {
 
   return (
     <div>
+      <h1>ToDoList</h1>
       <form onSubmit={enviarForm} >
         <input
           onChange={handleChange}

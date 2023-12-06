@@ -9,6 +9,21 @@ body {
     height: 100vh;
 }
 
+h1 {
+    color: #3498db;
+    font-size: 3em;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.5s ease, transform 0.5s ease;
+}
+
+h1:hover {
+    color: #e74c3c;
+    transform: scale(1.1);
+}
+
 form {
     display: flex;
     flex-direction: column;
