@@ -1,0 +1,90 @@
+/* List.css */
+
+table {
+    margin-top: 20px;
+    width: 90vw;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #007bff;
+    /* Color de fondo del encabezado */
+    color: #ffffff;
+    /* Color del texto del encabezado */
+}
+
+tr {
+    text-align: center;
+}
+
+th,
+td {
+    width: 20%;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+    /* Color del borde de las celdas */
+}
+
+.th__check {
+    width: 1%;
+}
+
+th {
+    font-weight: bold;
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5;
+    /* Color de fondo al pasar el ratón sobre una fila */
+}
+
+.td__tarea {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    font-size: 18px;
+    font-weight: bold;
+    /* background-color: #000000; */
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.btns button {
+    width: 40%;
+
+}
+
+.msg {
+    font-style: italic;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.alertTrue {
+    height: 10px;
+
+    width: 100%; 
+    text-align: center;
+
+
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+    /* Ajusta el tamaño del checkbox */
+    margin-right: 5px;
+    /* Espacio entre el checkbox y el texto */
+}
